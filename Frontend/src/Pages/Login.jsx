@@ -1,7 +1,12 @@
+import Jumbotron from "../Molecules/Jumbotron/Jumbotron";
 import style from "./Login.module.css";
 
 const LoginPage = () => {
-  return <div className={style.coba + " font-bold"}>hello world</div>;
+  return (
+    <>
+      <Jumbotron />
+    </>
+  );
 };
 
 export default LoginPage;
